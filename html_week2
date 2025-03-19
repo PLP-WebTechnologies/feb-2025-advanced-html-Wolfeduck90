@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Features Implementation</title>
+</head>
+<body>
+    <!-- Remember a title in the Header Section -->
+    <header>
+        <h1>Welcome to My Assignment</h1>
+    </header>
+
+    <!-- Create Ordered List with Roman Numerals -->
+    <section>
+        <h2>Subjects I am currently learning</h2>
+        <ol type="I">
+            <li>Web development</li>
+            <li>Database Design</li>
+            <li>Python</li>
+            <li>Startup Building</li>
+        </ol>
+    </section>
+
+    <!-- Use image from Pexel -->
+    <section>
+        <h2>Breaking the chains</h2>
+        <img src="https://images.pexels.com/photos/247851/pexels-photo-247851.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beautiful Landscape" width="500">
+    </section>
+
+    <!-- Table with 5 Contacts -->
+    <section>
+        <h2>Student Contacts</h2>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lusanda Ntlombeni</td>
+                    <td>123 Tutoring Street, Cape Town</td>
+                    <td>+27732983321</td>
+                    <td>luluntlombeni@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Irke Konzolo</td>
+                    <td>456 Random Avenue, Nairobi</td>
+                    <td>+25781195190</td>
+                    <td>iykekonzolo@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Sylvester Kesa</td>
+                    <td>789 Little Road, Cape Town</td>
+                    <td>+263779566001</td>
+                    <td>skesa@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Ridge Junior</td>
+                    <td>101 Success Hill, Nairobi</td>
+                    <td>+254113245740</td>
+                    <td>ridgejunior@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Decko Owino</td>
+                    <td>202 Youngen Valley, Nairobi</td>
+                    <td>+254781110578</td>
+                    <td>deckoowino@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form, remember all the elements!!! argh.... -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required> Male
+            <input type="radio" id="female" name="gender" value="female" required> Female
+            <input type="radio" id="Intersex" name="gender" value="Intersex" required> Intersex
+            <br><br>
+
+            <label for="hobbies">Hobbies:</label>
+            <input type="checkbox" id="sports" name="hobbies" value="sports"> Sports
+            <input type="checkbox" id="reading" name="hobbies" value="reading"> Reading
+            <input type="checkbox" id="Coding" name="hobbies" value="Coding"> Coding
+            <br><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="southafrica">South Africa</option>
+                <option value="kenya">Kenya</option>
+                <option value="zimbabwe">Zimbabwe</option>
+                <option value="lesotho">Lesotho</option>
+            </select>
+            <br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Footer Section, what thehell am I supposed to put here?-->
+    <footer>
+        <p>© 2025 HTML5 Assignment Week 2</p>
+    </footer>
+</body>
+</html>
